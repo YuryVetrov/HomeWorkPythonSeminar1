@@ -17,4 +17,6 @@ def sector(x, y):
         print ("Лежит в 3 четверти плоскости")
     elif (x > 0 and y < 0):
         print ("Лежит в 4 четверти плоскости")
+    else:
+        print ('Введите числа X и Y не равные 0')
 sector(x, y)
